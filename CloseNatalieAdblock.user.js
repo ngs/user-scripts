@@ -7,7 +7,7 @@
 // @match        https://natalie.mu/*
 // @icon         https://www.google.com/s2/favicons?domain=natalie.mu
 // @grant        none
-// @homepageURL  https://github.com/ngs/userscripts/CloseNatalieAdblock.user.js$
+// @homepageURL  https://github.com/ngs/userscripts/blob/master/CloseNatalieAdblock.user.js$
 // @run-at       document-start
 // ==/UserScript==
 

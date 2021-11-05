@@ -6,7 +6,7 @@
 // @author       Atsushi Nagase
 // @match        https://global.danner.com/*
 // @icon         https://www.google.com/s2/favicons?domain=danner.com
-// @homepageURL  https://github.com/ngs/userscripts/CloseBorderfreeDialog.user.js
+// @homepageURL  https://github.com/ngs/userscripts/blob/master/CloseBorderfreeDialog.user.js
 // @grant        none
 // ==/UserScript==
 
