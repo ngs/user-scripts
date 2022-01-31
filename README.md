@@ -6,3 +6,5 @@
 - [TweakTwitter.user.js](https://github.com/ngs/userscripts/raw/master/TweakTwitter.user.js)
 - [TweakYJFinance.user.js](https://github.com/ngs/userscripts/raw/master/TweakYJFinance.user.js)
 - [ClosePressHeraldDialog.user.js](https://github.com/ngs/userscripts/raw/master/ClosePressHeraldDialog.user.js)
+
+- [UncheckLTikeNewsletters.user.js](https://github.com/ngs/userscripts/raw/master/UncheckLTikeNewsletters.user.js)
