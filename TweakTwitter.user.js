@@ -21,8 +21,8 @@
       document.querySelector('[aria-label="Timeline: Trending now"]')
     );
     removeIfExists(document.querySelector('[aria-label="Who to follow"]'));
-    
-    Array.from(document.querySelectorAll('a[href$="/quick_promote_web/intro"]')).forEach(removeIfExists)
+    Array.from(document.querySelectorAll('a[href$="/quick_promote_web/intro"]')).forEach(removeIfExists);
+    removeIfExists(document.querySelector('[aria-label="Twitter Blue"]'));
   }).observe(document, {
     childList: true,
     subtree: true,
