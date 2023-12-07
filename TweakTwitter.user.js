@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tweak Twitter
 // @namespace    https://twitter.com/
-// @version      0.1.1
+// @version      0.1.2
 // @description  Remove unwanted contents from Twitter
 // @author       Atsushi Nagase
 // @match        https://twitter.com/*
@@ -21,6 +21,7 @@
       document.querySelector('[aria-label="Timeline: Trending now"]')
     );
     removeIfExists(document.querySelector('[aria-label="Who to follow"]'));
+    removeIfExists(document.querySelector('[aria-label="Subscribe to Premium"]'));
     Array.from(document.querySelectorAll('a[href$="/quick_promote_web/intro"]')).forEach(removeIfExists);
     removeIfExists(document.querySelector('[aria-label="Twitter Blue"]'));
     removeIfExists(document.querySelector('[aria-label="Get Verified"]'));
