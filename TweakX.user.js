@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tweak X
 // @namespace    https://x.com/
-// @version      0.1.4
+// @version      0.1.5
 // @description  Remove unwanted contents from X
 // @author       Atsushi Nagase
 // @match        https://x.com/*
@@ -21,6 +21,7 @@
       document.querySelector('[aria-label="Timeline: Trending now"]')
     );
     removeIfExists(document.querySelector('[aria-label="Premium"]'));
+    removeIfExists(document.querySelector('[aria-label="Subscribe to Premium"]'));
     removeIfExists(document.querySelector('[aria-label="Grok"]'));
     removeIfExists(document.querySelector('[aria-label="Who to follow"]'));
     removeIfExists(document.querySelector('[aria-label="Verified Orgs"]'));
