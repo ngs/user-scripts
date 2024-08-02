@@ -7,4 +7,5 @@
 - [TweakYJFinance.user.js](https://github.com/ngs/userscripts/raw/master/TweakYJFinance.user.js)
 - [ClosePressHeraldDialog.user.js](https://github.com/ngs/userscripts/raw/master/ClosePressHeraldDialog.user.js)
 - [RemoveGoogleSponsoredLinks.user.js](https://github.com/ngs/userscripts/raw/master/RemoveGoogleSponsoredLinks.user.js)
+- [RemoveFacebookReels.user.js](https://github.com/ngs/userscripts/raw/master/RemoveFacebookReels.user.js)
 - [UncheckLTikeNewsletters.user.js](https://github.com/ngs/userscripts/raw/master/UncheckLTikeNewsletters.user.js)
