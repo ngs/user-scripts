@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tweak X
 // @namespace    https://x.com/
-// @version      0.1.6
+// @version      0.1.7
 // @description  Remove unwanted contents from X
 // @author       Atsushi Nagase
 // @match        https://x.com/*
@@ -35,7 +35,8 @@
         tgt = tgt.parentNode;
       }
       if (tgt) {
-        tgt.styles.display = 'none';
+        tgt.style = tgt.style|| {};
+        tgt.style.display = 'none';
       }
       elm = res.iterateNext();
     }
